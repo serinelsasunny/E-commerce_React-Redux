@@ -1,0 +1,38 @@
+.img{
+    height:30px;
+    width:30px;
+    float:right}
+
+.cart{
+    margin-right:10px;
+}
+.badge::after{
+
+    content:attr(value);
+
+    font-size:1.2rem;
+
+    color: #fff;
+
+    background: red;
+
+    border-radius:1px;
+
+    padding: 0 3px;
+
+    position:relative;
+
+    left:-8px;
+
+    top:-5px;
+    right:-50px;
+
+  
+
+    opacity:0.9;
+    
+    width:.7 rem;
+
+    font-weight:bold;
+
+}
