@@ -27,68 +27,68 @@ function Home() {
  
  
   return (
-    <div>
+     <div>
       <div
         id="carouselExampleIndicators"
-        class="carousel slide"
-        data-ride="carousel"
+        className="carousel slide"
+        data-bs-ride="carousel"
       >
         <div
-          class="carousel-inner"
-          style={{ height: "350px", width: "500rem" }}
+          className="carousel-inner"
+          style={{ height: "350px" }}
         >
           <div
-            class="carousel-item active"
-            style={{ height: "500rem", width: "100rem" }}
+            className="carousel-item active"
+            style={{ height: "350px" }}
           >
             <img
-              class="d-block w-100"
-              src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+              className="d-block w-100"
+              src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png"
               alt="First slide"
             ></img>
-            <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block">
               <h5>My Caption Title (1st Image)</h5>
             </div>
           </div>
           <div
-            class="carousel-item "
-            style={{ height: "350px", width: "500rem" }}
+            className="carousel-item"
+            style={{ height: "350px" }}
           >
             <img
-              class="d-block w-100"
-              src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+              className="d-block w-100"
+              src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png"
               alt="Second slide"
             ></img>
           </div>
           <div
-            class="carousel-item"
-            style={{ height: "350px", width: "500rem" }}
+            className="carousel-item"
+            style={{ height: "350px" }}
           >
             <img
-              class="d-block w-100"
-              src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+              className="d-block w-100"
+              src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png"
               alt="Third slide"
             ></img>
           </div>
         </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
       <div>
         <h2 className="text-center">NEW ARRIVALS</h2>
